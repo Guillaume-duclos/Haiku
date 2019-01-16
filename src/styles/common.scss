@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex { display: flex; }
+.row { flex-direction: row; }
+.column { flex-direction: column; }
+.center { justify-content: center; }
+.around { justify-content: space-around; }
+.between { justify-content: space-between; }
+
+body {
+  height: 100%;
+}
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+
+}
