@@ -4,7 +4,27 @@
     <title>Haïku</title>
     <meta charset="utf-8"/>
   </head>
-  <body class="flex center">
-
+  <body>
+    <main class="container">
+      <div id="scene" data-relative-input="true">
+        <img class="background" src="assets/layers/layer_background.jpg"/>
+        <img class="star star_1" data-depth="0.1" src="assets/layers/star.png"/>
+        <img class="star star_2" data-depth="0.3" src="assets/layers/star.png"/>
+        <img class="star star_3" data-depth="0.2" src="assets/layers/star.png"/>
+        <img class="moon" data-depth="0.1" src="assets/layers/moon.png"/>
+        <img class="phrase phrase_1" src="assets/layers/word_1.png"/>
+        <img class="phrase phrase_2" src="assets/layers/word_2.png"/>
+        <img class="phrase phrase_3" src="assets/layers/word_3.png"/>
+        <img class="layer" data-depth="0.1" src="assets/layers/layer_forground_4.png"/>
+        <img class="layer" data-depth="0.2" src="assets/layers/layer_forground_3.png"/>
+        <img class="layer" data-depth="0.3" src="assets/layers/layer_forground_2.png"/>
+        <img class="layer" data-depth="0.4" src="assets/layers/layer_forground_1.png"/>
+      </div>
+      <div class="sub-container flex center">
+        <p class="instruction">Pressez la touche espace pour écrire un SOS</p>
+      </div>
+      <p class="credit">Haïku by Sumitaku Kenshin</p>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </body>
 </html>

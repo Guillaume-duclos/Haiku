@@ -8,4 +8,4 @@ Commands :
     <li>Create a g-pages branch : <span>npm run deploy</span></li>
 </ul>
 
-See preview here : https://github.com/Guillaume-duclos/Haiku
+See preview here : https://guillaume-duclos.github.io/Haiku
